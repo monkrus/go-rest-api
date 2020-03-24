@@ -42,12 +42,9 @@ install GoLang
 ``` 
 - Run `$ go run main.go` and compare following lines in Postman
  
- <img src="https://monosnap.com/image/Po8V4upwAgdt7AIEAoQLCjQidMB3pM">
+ <img src="https://monosnap.com/image/AZya89egN8yFXxsmI31oAYF8VPbICL">
  
-## FAQ 
 
-- **How do I do *specifically* so and so?** 
-    - No problem! Just do this.
  
 
 
