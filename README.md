@@ -13,7 +13,7 @@
 
 4. We run `go run main.go` to test the basic functionality of those 3 functions. (Result: "Homepage Endpoint Hit" message )
 
-5. create a fisrs API that returns a JSON response 
+5. Create an API that returns a JSON response 
 
 6. Define an Article struct, set an Article array
 
@@ -21,5 +21,10 @@
 
 8. We run `go run main.go`  and return a JSON response under `http://localhost:8000/articles`. Success !
 
-9. 
+9. Let`s refactor!
 
+10. Introducing gorilla/mux
+
+11. Add lines to handleRequests func
+
+12. 
