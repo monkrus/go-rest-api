@@ -1,4 +1,4 @@
-<a href="https://github.com/monkrus"><img src="https://monosnap.com/image/eZ55PfNkXdQo1BVlO26Dvl2mHlSkkR" title="GoLang champion" alt="GoLang champion"></a>
+<a href="https://github.com/monkrus"><img src="https://monosnap.com/image/nGg2FJacdl0L9qIgZSxBNtx3BibEBa" title="GoLang champion" alt="GoLang champion"></a>
 
 # REST API 
 We are creating a simple server to handle HTTP requests which helps us to provide communication between separate software components.
