@@ -27,4 +27,12 @@
 
 11. Add lines to handleRequests func
 
-12. 
+12. Test Gorilla/mux,`go run main.go`
+
+13. Run  `go run main.go` and compare following lines in Postman
+`myRouter.HandleFunc("/articles", allArticles).Methods("GET")
+ myRouter.HandleFunc("/articles", testPostArticles).Methods("POST")` 
+ 
+
+
+
