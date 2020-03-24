@@ -1,37 +1,53 @@
-# go_rest_api
+<a href="https://github.com/monkrus"><img src="https://monosnap.com/image/eZ55PfNkXdQo1BVlO26Dvl2mHlSkkR" title="GoLang champion" alt="GoLang champion"></a>
 
-# REST API helps us to provide communication between separate software components.
-# We are creating a simple server to handle HTTP requests.
+# REST API 
+We are creating a simple server to handle HTTP requests which helps us to provide communication between separate software components.
 
-- Three distinct functions:
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to start the project on a live system.
 
-1. HomePage function handles all requests to our root URL. 
+### Prerequisites
+What things you need to install the software and how to install them
+```
+install GoLang
+```
 
-2. HandleRequests function  matches the URL path hit with a defined function. 
+### Features
+> Three distinct functions:
 
-3. Main function kicks off the API (entry point)
+- HomePage function handles all requests to our root URL. 
+- HandleRequests function  matches the URL path hit with a defined function. 
+- Main function kicks off the API (entry point)
 
-4. We run `go run main.go` to test the basic functionality of those 3 functions. (Result: "Homepage Endpoint Hit" message )
+## Running
 
-5. Create an API that returns a JSON response 
+- We run `go run main.go` to test the basic functionality of those 3 functions. (Result: "Homepage Endpoint Hit" message )
+- Create an API that returns a JSON response 
+- Define an Article struct, set an Article array
+- Register our function
 
-6. Define an Article struct, set an Article array
+# Example
+- `$ go run main.go`  
+- Return a JSON response under `http://localhost:8000/articles`. Success !
+<img src="https://monosnap.com/image/j2YVHoLcSMRNLpejkWfcvJ88qQ4za9">
 
-7. Register our function
+# Example (Optional)
+![Refactor](recordgif.gif)
+- Introducing gorilla/mux
+- Add lines to handleRequests func
+- Test Gorilla/mux,`$ go run main.go`
+```go 
+ myRouter.HandleFunc("/articles", allArticles).Methods("GET")
+ myRouter.HandleFunc("/articles", testPostArticles).Methods("POST")
+``` 
+- Run `$ go run main.go` and compare following lines in Postman
+ 
+ <img src="https://monosnap.com/image/Po8V4upwAgdt7AIEAoQLCjQidMB3pM">
+ 
+## FAQ 
 
-8. We run `go run main.go`  and return a JSON response under `http://localhost:8000/articles`. Success !
-
-9. Let`s refactor!
-
-10. Introducing gorilla/mux
-
-11. Add lines to handleRequests func
-
-12. Test Gorilla/mux,`go run main.go`
-
-13. Run  `go run main.go` and compare following lines in Postman
-`myRouter.HandleFunc("/articles", allArticles).Methods("GET")
- myRouter.HandleFunc("/articles", testPostArticles).Methods("POST")` 
+- **How do I do *specifically* so and so?** 
+    - No problem! Just do this.
  
 
 
